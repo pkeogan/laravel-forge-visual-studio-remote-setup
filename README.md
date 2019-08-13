@@ -13,15 +13,21 @@ This is a setup guide on how to connect Visual Studio Code (SSH) to a Laravel Fo
  4. Windows 10 (This guide was made for windows 10)
 
 ## Guide
-### Step 1: Provision your Laravel Server
+
+### Step 1: Provision your Laravel 
+
 This guide will not be going over how to provision a laravel forge server. For information on this I recommend this series form LaraCasts: [Learn Forge](https://laracasts.com/series/learn-laravel-forge).
 ### Step 2: Install Visual Studio Code + Remote Development Extension
+
 Install [Visual Studio Code](https://code.visualstudio.com/), [Remote Development Extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.vscode-remote-extensionpack).
 ### Step 3: Activate OpenSSH in Windows Features
+
 Go to *Apps & Features* in windows, click *Manage optional features* then *Add a feature*, then find *OpenSSH Client* and *OpenSSH Server* and activate them. If they do not appear in the list, check and see if they were already installed by backing out and looking for them inside the list.
 
 <img src="https://github.com/pkeogan/laravel-forge-visual-studio-remote-setup/blob/master/act-openssh.GIF">
+
 ### Step 4: Create a Private + Public Keypair with OpenSSH
+
 Open *Command Prompt* and run 
 ```
 ssh-keygen -t rsa -b 4096
@@ -34,6 +40,7 @@ Open up the public key that was created @ `C:/users/{username}/.ssh/id_rsa.pub` 
 <img src="https://github.com/pkeogan/laravel-forge-visual-studio-remote-setup/blob/master/paste-ssh-into-forge.png">
 
 ### Step 6: Add connection to Visual Studio Code.
+
 Launch Visual Studio Code, then click on the *Remote-SSH* tab, then click the gear icon to the right of *connections* then click the first file the appears in the dropdown.
 
 Replace the file with the following template: 
@@ -55,6 +62,7 @@ Click save once done.
 <img src="https://github.com/pkeogan/laravel-forge-visual-studio-remote-setup/blob/master/config-paste.GIF">
 
 ### Step 7: Connect to your Forge Server
+
 click on the *Remote-SSH* tab, then right click on the host you just created and launch the connection. Your all done!
 <img src="https://github.com/pkeogan/laravel-forge-visual-studio-remote-setup/blob/master/connect.gif">
 
