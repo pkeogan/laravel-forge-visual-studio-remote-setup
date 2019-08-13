@@ -68,3 +68,18 @@ click on the *Remote-SSH* tab, then right click on the host you just created and
 
 **If this guide helped you at all, please star so others will find it. If it was not helpful, let me know why. Have a wonderful day.**
 
+
+## Extras
+
+### Change file watching size
+If you dont change a settings in filesystem, visual studio code and detect changes.
+run the command
+```
+sudo nano /etc/sysctl.conf
+```
+Then change the value if present, or add this to the end of the file
+```
+...
+fs.inotify.max_user_watches=524288
+...
+```
