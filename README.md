@@ -18,4 +18,4 @@ This guide will not be going over how to provision a laravel forge server. For i
 Install [Visual Studio Code](https://code.visualstudio.com/), [Remote Development Extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.vscode-remote-extensionpack).
 ### Step 3: Activate OpenSSH in Windows Features
 
-<img src="https://github.com/pkeogan/laravel-forge-visual-studio-remote-setup/blob/master/act-openssh.gif">
+<img src="https://github.com/pkeogan/laravel-forge-visual-studio-remote-setup/blob/master/act-openssh.GIF">
