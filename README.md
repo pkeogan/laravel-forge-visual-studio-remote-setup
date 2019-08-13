@@ -43,4 +43,4 @@ Host host
 	IdentityFile C:\Users\{insert-username}\.ssh\id_rsa
 	StrictHostKeyChecking no
 ```
-<img src="https://github.com/pkeogan/laravel-forge-visual-studio-remote-setup/blob/master/config-paste.png">
+<img src="https://github.com/pkeogan/laravel-forge-visual-studio-remote-setup/blob/master/config-paste.GIF">
