@@ -56,5 +56,5 @@ Click save once done.
 
 ### Step 7: Connect to your Forge Server
 click on the *Remote-SSH* tab, then right click on the host you just created and launch the connection. Your all done!
-<img src="https://github.com/pkeogan/laravel-forge-visual-studio-remote-setup/blob/master/connect.GIF">
+<img src="https://github.com/pkeogan/laravel-forge-visual-studio-remote-setup/blob/master/connect.gif">
 
