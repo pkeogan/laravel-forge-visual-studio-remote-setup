@@ -14,7 +14,7 @@ This is a setup guide on how to connect Visual Studio Code (SSH) to a Laravel Fo
 
 ## Guide
 ### Step 1: Provision your Laravel Server
-This guide will not be going over how to provision a laravel forge server. For information on this I recommend this serires form LaraCasts: [Learn Forge](https://laracasts.com/series/learn-laravel-forge).
+This guide will not be going over how to provision a laravel forge server. For information on this I recommend this series form LaraCasts: [Learn Forge](https://laracasts.com/series/learn-laravel-forge).
 ### Step 2: Install Visual Studio Code + Remote Development Extension
 Install [Visual Studio Code](https://code.visualstudio.com/), [Remote Development Extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.vscode-remote-extensionpack).
 ### Step 3: Activate OpenSSH in Windows Features
