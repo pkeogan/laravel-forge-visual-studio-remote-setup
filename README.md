@@ -58,5 +58,5 @@ Click save once done.
 click on the *Remote-SSH* tab, then right click on the host you just created and launch the connection. Your all done!
 <img src="https://github.com/pkeogan/laravel-forge-visual-studio-remote-setup/blob/master/connect.gif">
 
-** If this guide helped you at all, please star so others will find it. If it was not helpful, let me know why. Have a wonderful day.**
+**If this guide helped you at all, please star so others will find it. If it was not helpful, let me know why. Have a wonderful day.**
 
