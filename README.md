@@ -19,6 +19,7 @@ This guide will not be going over how to provision a laravel forge server. For i
 Install [Visual Studio Code](https://code.visualstudio.com/), [Remote Development Extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.vscode-remote-extensionpack).
 ### Step 3: Activate OpenSSH in Windows Features
 Go to *Apps & Features* in windows, click *Manage optional features* then *Add a feature*, then find *OpenSSH Client* and *OpenSSH Server* and activate them. If they do not appear in the list, check and see if they were already installed by backing out and looking for them inside the list.
+
 <img src="https://github.com/pkeogan/laravel-forge-visual-studio-remote-setup/blob/master/act-openssh.GIF">
 ### Step 4: Create a Private + Public Keypair with OpenSSH
 Open *Command Prompt* and run 
@@ -29,4 +30,5 @@ this will create the needed private and public key's on your computer in the fol
 **PLEASE NOTE: if you use an existing generated key pair, or putty, you will run into permissions errors.**
 ### Step 4: Add the public key to Forge Managed Server
 Open up the public key that was created @ `C:/users/{username}/.ssh/id_rsa.pub` with note pad or visual studio code, copy then contents and paste into the SSH Keys on Forge.
+
 <img src="https://github.com/pkeogan/laravel-forge-visual-studio-remote-setup/blob/master/paste-ssh-into-forge.png">
